@@ -1,0 +1,27 @@
+<html>
+<head>
+<style>
+p::first-line{
+color: #ff0000;
+font-variant:small-caps;
+}
+p#menu::first-letter{
+color:#ff0000;
+font-size:xx-large;
+}
+h1::before{
+content:->";
+}
+::selection{
+color:red;
+background:yellow;
+}
+</style>
+</head>
+<body>
+
+<p>you can use the ::first-line pseudo-element to add a special effect</p>
+<p id="menu">you can use the ::first-letter pseudo-element to add</p>
+<h1>heading</h1>
+</body>
+</html>
